@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JephraMart | Useful Products for Everyday Life</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#f7f7f5;color:#171717;line-height:1.5}
+header{background:#111;color:#fff;padding:16px 6%;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:20}
+.logo{font-size:25px;font-weight:800}.logo span{color:#f3b800}
+nav a{color:#fff;text-decoration:none;margin-left:20px;font-size:14px}
+.hero{background:linear-gradient(135deg,#111,#292929);color:#fff;padding:72px 7%;text-align:center}
+.hero h1{font-size:clamp(32px,6vw,52px);line-height:1.08;margin-bottom:15px}.hero h1 span{color:#f3b800}
+.hero p{font-size:17px;color:#ddd;max-width:650px;margin:0 auto 28px}
+.btn{display:inline-block;background:#f3b800;color:#111;padding:13px 20px;border-radius:8px;text-decoration:none;font-weight:700;border:0;cursor:pointer}
+section{padding:52px 7%}
+.title{text-align:center;margin-bottom:30px}.title h2{font-size:30px}.title p{color:#666;margin-top:7px}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:22px}
+.card{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 5px 22px #00000010;border:1px solid #eee;transition:.2s}
+.card:hover{transform:translateY(-3px);box-shadow:0 9px 28px #00000016}
+.pic{height:245px;background:#f1f1ef;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.pic img{width:100%;height:100%;object-fit:cover;display:block}
+.info{padding:18px}.info h3{font-size:18px;margin:7px 0 8px}.info p{font-size:13px;color:#666;min-height:40px}
+.tag{font-size:10px;background:#f3b800;padding:5px 8px;border-radius:20px;display:inline-block;font-weight:800;letter-spacing:.3px}
+.price{font-size:21px;font-weight:800;margin:14px 0}.profit{font-size:12px;color:#287a35;background:#eef8ef;padding:7px 9px;border-radius:7px;display:inline-block;margin-bottom:12px}.profit-note{font-size:12px;color:#777;margin-top:8px}
+.order{background:#111;color:#fff;width:100%;text-align:center}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:15px}
+.feature{background:#fff;padding:24px;border-radius:14px;text-align:center;border:1px solid #eee}.feature b{display:block;margin:8px 0}.feature p{font-size:13px;color:#666}
+.notice{background:#fff4cc;border-left:4px solid #f3b800;padding:15px;margin:0 7% 30px;font-size:13px}
+footer{background:#111;color:#fff;text-align:center;padding:35px 7%}.gold{color:#f3b800}.small{font-size:12px;color:#aaa;margin-top:9px}
+@media(max-width:600px){nav{display:none}.hero{padding:58px 6%}.pic{height:220px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Jephra<span>Mart</span></div>
+  <nav><a href="#products">Products</a><a href="#profit-picks">Profit Picks</a><a href="#about">Why Us</a><a href="#contact">Contact</a></nav>
+</header>
+
+<div class="hero">
+  <h1>Useful Products. <span>Better Living.</span></h1>
+  <p>Practical products selected for everyday needs, convenience, value and healthy margin potential.</p>
+  <a class="btn" href="#products">Shop Products</a>
+</div>
+
+<section id="products">
+  <div class="title">
+    <h2>Featured Products</h2>
+    <p>A focused collection of practical products with room for a sensible markup.</p>
+  </div>
+
+  <div class="products">
+
+    <div class="card">
+      <div class="pic">
+        <img src="https://myfitto.com/cdn/shop/files/61WhdMnbFZL._AC_SL1500.jpg?v=1771497721&width=1445" alt="Rechargeable emergency LED light" loading="lazy">
+      </div>
+      <div class="info">
+        <span class="tag">HOME ESSENTIAL</span>
+        <h3>Rechargeable Emergency LED Light</h3>
+        <p>Portable lighting for rooms, bedside use and power outages.</p>
+        <div class="price">₦14,900</div><div class="profit">Est. gross profit: ₦5,000</div>
+        <a class="btn order" href="https://wa.me/" target="_blank">Order on WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="pic">
+        <img src="https://cdn.shopify.com/s/files/1/0608/3166/2294/products/H8fd1b940efa5460883cc89d8b710b76du.jpg?v=1671658170" alt="Rechargeable handheld car vacuum cleaner" loading="lazy">
+      </div>
+      <div class="info">
+        <span class="tag">CLEANING</span>
+        <h3>Rechargeable Handheld Vacuum</h3>
+        <p>Compact cleaner for cars, desks, sofas and hard-to-reach spaces.</p>
+        <div class="price">₦19,900</div><div class="profit">Est. gross profit: ₦7,000</div>
+        <a class="btn order" href="https://wa.me/" target="_blank">Order on WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="pic">
+        <img src="https://m.media-amazon.com/images/I/71b7mJx1R-L._AC_SL1500_.jpg" alt="Electric heated lunch box" loading="lazy">
+      </div>
+      <div class="info">
+        <span class="tag">EVERYDAY USE</span>
+        <h3>Electric Heated Lunch Box</h3>
+        <p>A convenient lunch solution for work, school and travel.</p>
+        <div class="price">₦24,900</div><div class="profit">Est. gross profit: ₦8,000</div>
+        <a class="btn order" href="https://wa.me/" target="_blank">Order on WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="pic">
+        <img src="https://lamicallshop.com/cdn/shop/products/DP01_5f84e709-0d18-4b8a-9f4c-f7df3f737d4a_800x.jpg?v=1690876095" alt="Foldable aluminum phone stand" loading="lazy">
+      </div>
+      <div class="info">
+        <span class="tag">PHONE ACCESSORY</span>
+        <h3>Adjustable Aluminum Phone Stand</h3>
+        <p>Stable hands-free stand for calls, videos, reading and desk use.</p>
+        <div class="price">₦8,900</div><div class="profit">Est. gross profit: ₦3,500</div>
+        <a class="btn order" href="https://wa.me/" target="_blank">Order on WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="pic">
+        <img src="https://i5.walmartimages.com/asr/5c1ba3a2-28db-487d-88c9-61c763aba122.9015b71ca96b515652a7687702ab829b.jpeg?odnBg=FFFFFF&odnHeight=612&odnWidth=612" alt="Solar rechargeable power bank" loading="lazy">
+      </div>
+      <div class="info">
+        <span class="tag">BACKUP POWER</span>
+        <h3>Solar Rechargeable Power Bank</h3>
+        <p>Portable backup charging option with built-in light for emergencies and outdoor use.</p>
+        <div class="price">₦29,900</div><div class="profit">Est. gross profit: ₦9,000</div>
+        <a class="btn order" href="https://wa.me/" target="_blank">Order on WhatsApp</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="profit-picks">
+  <div class="title">
+    <h2>Better-Margin Picks</h2>
+    <p>Products selected for a stronger potential margin while staying practical.</p>
+  </div>
+  <div class="features">
+    <div class="feature"><b>Solar Rechargeable Power Bank</b><p>Higher ticket price and useful backup-power appeal.</p><strong>Est. gross profit: ₦9,000</strong></div>
+    <div class="feature"><b>Electric Heated Lunch Box</b><p>Useful everyday product with room for a healthy markup.</p><strong>Est. gross profit: ₦8,000</strong></div>
+    <div class="feature"><b>Handheld Vacuum</b><p>Problem-solving product with a higher selling price.</p><strong>Est. gross profit: ₦7,000</strong></div>
+    <div class="feature"><b>Emergency LED Light</b><p>Affordable household product with repeatable demand potential.</p><strong>Est. gross profit: ₦5,000</strong></div>
+  </div>
+  <p class="profit-note" style="text-align:center;margin-top:18px">Profit figures are estimates based on assumed sourcing costs. Your real profit = selling price − supplier cost − delivery/payment/advertising costs.</p>
+</section>
+
+<div class="notice">
+  <b>Important:</b> Product prices and availability are starting/test prices. Confirm your supplier's current stock, exact cost, product quality, delivery time and return policy before publishing prices or accepting orders. Profit estimates do not include delivery, payment fees or advertising.
+</div>
+
+<section id="about">
+  <div class="title"><h2>Why Shop JephraMart?</h2><p>Simple, useful and customer-focused.</p></div>
+  <div class="features">
+    <div class="feature">✓<b>Practical Selection</b><p>Products chosen around everyday needs rather than short-lived hype.</p></div>
+    <div class="feature">🚚<b>Delivery Ready</b><p>Confirm delivery terms before taking customer orders.</p></div>
+    <div class="feature">💬<b>WhatsApp Ordering</b><p>Customers can contact you directly to place an order.</p></div>
+    <div class="feature">⭐<b>Clean Shopping</b><p>A simple mobile-first storefront that's easy to browse.</p></div>
+  </div>
+</section>
+
+<footer id="contact">
+  <h2>Jephra<span class="gold">Mart</span></h2>
+  <p>Useful Products. Better Living.</p>
+  <p class="small">Replace the WhatsApp links with your business number before launch.</p>
+</footer>
+
+</body>
+</html>
